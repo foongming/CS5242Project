@@ -1,0 +1,2 @@
+# CS5242Project
+AY2024/2025 Sem 2 CS5242 NN and DL Project
