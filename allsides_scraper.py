@@ -79,6 +79,8 @@ if __name__ == '__main__':
         df.to_csv(f'data/allsides_news_{dt.datetime.now().strftime('%Y%d%m%H%M%S')}.csv')
         with open('data/scraped_urls.txt', 'w') as f:
             f.write('\n'.join(hist.keys()))
+
+        driver.close()
     except Exception as e:
         print(e)
         logging.error(e)
