@@ -3,3 +3,4 @@ data/*
 *.log
 *.xml
 *.txt
+constants.py
