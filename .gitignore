@@ -1,6 +1,4 @@
 data/*
-*.csv
 *.log
 *.xml
-*.txt
 constants.py
