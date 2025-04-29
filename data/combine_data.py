@@ -1,9 +1,19 @@
 def append_files(file1, file2, file3, output_file):
+    input_files = [file1, file2, file3]
     with open(output_file, 'w') as outfile:
-        for fname in [file1, file2, file3]:
+        for idx, fname in enumerate(input_files):
             with open(fname, 'r') as infile:
-                outfile.write(infile.read())
-                outfile.write('\n')  # optional: adds a newline between files
+                lines = infile.readlines()
+                if idx == 0:
+                    outfile.write(lines[0].strip() + '\n')  # Write header once
+                    data_lines = lines[1:]
+                else:
+                    data_lines = lines[1:]  # Skip header for subsequent files
+                for line in data_lines:
+                    fields = line.strip().split(',')
+                    if len(fields) > 0:
+                        fields[-1] = fields[-1].lower()  # Lowercase Bias column (assume it's the last column)
+                    outfile.write(','.join(fields) + '\n')
 
 file1 = 'test_preprocessed.csv'
 file2 = 'allsides_additional_test_preprocessed.csv'
