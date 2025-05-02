@@ -61,9 +61,9 @@ Model 2:
 2. FFNN (TD-IDF) [combined_FFNN.ipynb](combined_FFNN.ipynb)
 3. FFNN (GloVe) [combined_FFNN_GloVe.ipynb](combined_FFNN_GloVe.ipynb)
 4. LSTM [combined_lstm.ipynb](combined_lstm.ipynb)
-5. BERT [REPLACE ME]
-6. Llama [REPLACE ME]
-7. Llama [REPLACE ME]
+5. BERT [combined_bert.ipynb](combined_bert.ipynb)
+6. Llama [llama_base.ipynb](combined_llama_base.ipynb)
+7. Llama (LoRA) [llama_lora.ipynb](combined_llama_lora.ipynb)
 
 Synthetic Data Experiment (Model 3):
 1. LSTM with Synthetic data [lstm_syn.ipynb](lstm_syn.ipynb)
