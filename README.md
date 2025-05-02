@@ -29,13 +29,34 @@ Approach:
 - Develop ML-based political bias classifier 
 
 Goal: 
-- Enable instant, on-demand bias assessment to enhance media literary 
+- Enable instant, on-demand bias assessment to enhance media literary
+
+Our video presentation is in the file Video.mp4, and our slides can be found in NN Presentation.pdf.
 
 ## Navigating this Repository
 
 Our final project report is available at [report.ipynb](report.ipynb)
 
-Briefly, our project used the kaggle data set political bias [here](https://www.kaggle.com/datasets/mayobanexsantana/political-bias/data) to develop an initial flow that produced Model 1 for each of our chosen models. Additional data was scrapped due to class imbalance and a second model, Model 2, was produced using the combined (augmented) dataset. Details of models are found in the report. 
+Briefly, our project used the kaggle data set political bias [here](https://www.kaggle.com/datasets/mayobanexsantana/political-bias/data) to develop an initial flow that produced Model 1 for each of our chosen models. Additional data was scrapped due to class imbalance and a second model, Model 2, was produced using the combined (augmented) dataset. Details of models are found in the report.
+
+To run the notebooks, please install python 3.12.3. The notebook has been tested with this version and while it may run with other versions, it is untested.
+
+Run the following commands after creating and starting a virtual environment for python:
+```python
+pip install -r requirements.txt
+pip install jupyter
+```
+
+For GloVe implementations, please download the 6B GloVe embeddings. And unzip them in a folder named glove.6B.
+```shell
+wget https://nlp.stanford.edu/data/glove.6B.zip
+```
+
+Please note that to run the worldnewsapi scraper, you will need both A RAPIDAPI account with a KEY in the MBFC api, and a world news API key in constants.py:
+```python
+WORLDNEWS_API_KEY="APIKEYHERE"
+RAPID_API_KEY="APIKEYHERE"
+```
 
 ![project flow diagram](images/ProjectFlow.png) 
 
