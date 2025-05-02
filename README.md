@@ -44,6 +44,7 @@ To run the notebooks, please install python 3.12.3. The notebook has been tested
 Run the following commands after creating and starting a virtual environment for python:
 ```python
 pip install -r requirements.txt
+pip install jupyter
 ```
 
 For GloVe implementations, please download the 6B GloVe embeddings. And unzip them in a folder named glove.6B.
