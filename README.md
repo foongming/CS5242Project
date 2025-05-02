@@ -65,9 +65,12 @@ Model 2:
 6. Llama [REPLACE ME]
 7. Llama [REPLACE ME]
 
-Synthetic Data Experiment:
+Synthetic Data Experiment (Model 3):
 1. LSTM with Synthetic data [lstm_syn.ipynb](lstm_syn.ipynb)
 
+Data:
+1. All data is in the [data](data) directory
+2. All scrappers used are in the [data](data) directory
 
 References: 
 
