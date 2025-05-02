@@ -123,6 +123,7 @@ nvidia-nccl-cu12==2.21.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.4.127
 openai==1.65.3
+outcome==1.3.0.post0
 overrides==7.7.0
 packaging==24.2
 pandas==2.2.3
@@ -150,6 +151,7 @@ pydantic_core==2.27.2
 Pygments==2.19.1
 pyLDAvis==3.4.1
 pyparsing==3.2.1
+PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-json-logger==3.3.0
@@ -169,6 +171,7 @@ scikit-image==0.25.2
 scikit-learn==1.6.1
 scipy==1.13.1
 seaborn==0.13.2
+selenium==4.31.0
 Send2Trash==1.8.3
 setuptools==75.8.2
 shellingham==1.5.4
@@ -176,6 +179,7 @@ six==1.17.0
 skorch==1.1.0
 smart-open==7.1.0
 sniffio==1.3.1
+sortedcontainers==2.4.0
 soupsieve==2.7
 spacy==3.8.4
 spacy-legacy==3.0.12
@@ -198,6 +202,8 @@ tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.51.3
+trio==0.30.0
+trio-websocket==0.12.2
 triton==3.2.0
 trl==0.16.1
 typer==0.15.1
@@ -206,7 +212,7 @@ typing_extensions==4.12.2
 tzdata==2025.1
 tzlocal==5.3.1
 uri-template==1.3.0
-urllib3==2.3.0
+urllib3==2.0.7
 wasabi==1.1.3
 wcwidth==0.2.13
 weasel==0.4.1
@@ -216,7 +222,9 @@ websocket-client==1.8.0
 Werkzeug==3.1.3
 widgetsnbextension==4.0.14
 wordcloud==1.9.4
+worldnewsapi==2.2.0
 wrapt==1.17.2
+wsproto==1.2.0
 xxhash==3.5.0
 yarg==0.1.9
 yarl==1.18.3
