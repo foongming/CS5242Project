@@ -3,9 +3,9 @@ AY2024/2025 Sem 2 CS5242 NN and DL Project
 
 Group 10 
 
-Benjamin Lee Jun Cheng A0286163Y
+Benjamin Lee Jun Cheng 
 
-Lai Foong Ming A0268245X
+Lai Foong Ming 
 
 This repo consists of the work done for the group project component in CS5424 Neural Networks and Deep Learning for AY2024/2025 Sem 2 in National University of Singapore (NUS). 
 
